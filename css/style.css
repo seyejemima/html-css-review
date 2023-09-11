@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #7251B5;
+
+}
+header{
+    background-color: #000;
+}
+
+.welcome {
+    text-align: left;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito';
+    color: #fff;
+    line-height: 1.5;
+}
+h2{
+    font-size: large;
+    font-weight: bold;
+}
+ h3{
+    font-size: medium;
+    font-weight:bold;
+ }
+section.hero {
+width: 100%;
+background-image: url("../images/ice-cream-cones.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em 0;
+
+}
