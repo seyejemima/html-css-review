@@ -2,42 +2,56 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #7251B5;
-
-}
-header{
-    background-color: #000;
-}
-
-.welcome {
-    text-align: left;
-}
 body{
-    margin: 0;
-    font-family: 'Nunito';
-    color: #fff;
-    line-height: 1.5;
-}
-h2{
-    font-size: large;
-    font-weight: bold;
-}
- h3{
-    font-size: medium;
-    font-weight:bold;
- }
-section.hero {
-width: 100%;
-background-image: url("../images/ice-cream-cones.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: top center;
+    font-family: 'Nunito', sans-serif;
+   /* color: #fff; */
+   line-height:1.5;  
+   margin:0;
 }
 
-.wrapper {
+.wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.5em 0;
+    padding: 0 2em;
+}
 
+#company-name{
+    color:#DEC9E9;
+    font-size: 1.5 rem;
+
+}
+
+#header,
+#wrapping,
+#team {
+    padding: 4em 0;
+}
+
+#header{
+    background-color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li a: link,
+nav ul li a: visited {
+    text-decoration: none;
+    color: #DEC9E9;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff;
+}
+
+#hero{
+    height: 60 vh;
+    background-color: #7251b5;
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center
 }
